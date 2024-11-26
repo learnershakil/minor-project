@@ -5,6 +5,17 @@ import CourseNavbar from './_components/course-navbar'
 import CourseSidebar from './_components/course-sidebar'
 import { getProgress } from '@/actions/get-progress'
 
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import './../../../globals.css'
+
+const inter = Inter({ subsets: ['latin'] })
+
+export const metadata: Metadata = {
+  title: 'LMS (Learning Management System)',
+  description: 'LMS (Learning Management System)',
+}
+
 export default async function CourseLayout({
   children,
   params,

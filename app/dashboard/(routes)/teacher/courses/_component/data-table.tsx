@@ -52,7 +52,7 @@ export function DataTable<TData, TValue>({ columns, data }: DataTableProps<TData
           onChange={(event) => table.getColumn('title')?.setFilterValue(event.target.value)}
           className="max-w-sm"
         />
-        <Link href="/teacher/create">
+        <Link href="/dashboard/teacher/create">
           <Button>
             <PlusCircle className="mr-2 h-4 w-4" />
             New course

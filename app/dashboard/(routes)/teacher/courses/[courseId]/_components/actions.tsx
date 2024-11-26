@@ -27,7 +27,7 @@ export default function Actions({ disabled, isPublished, courseId }: ActionsProp
       await axios.delete(`/api/courses/${courseId}`)
       toast.success('Course deleted')
       router.refresh()
-      router.push(`/teacher/courses/${courseId}`)
+      router.push(`/dashboard/teacher/courses/${courseId}`)
     } catch {
       toast.error('Something went wrong!')
     } finally {

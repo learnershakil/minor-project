@@ -5,7 +5,7 @@ const teamMembers = [
   { name: 'Shakil Ahmad', role: 'Founder & CEO', image: '/shakil.png?height=100&width=100' },
   { name: 'Sitare', role: 'Head of Curriculum', image: '/sitare.jpg?height=100&width=100' },
   { name: 'Kumar Akash', role: 'Lead Instructor', image: '/akash.png?height=100&width=100' },
-  { name: 'Sam', role: 'Student Success Manager', image: '/sam.png?height=100&width=100' },
+  { name: 'Anvesha Singh', role: 'Student Success Manager', image: '/anvesha.png?height=100&width=100' },
 ]
 
 export function TeamMembers() {

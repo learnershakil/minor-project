@@ -2,10 +2,10 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import Image from 'next/image'
 
 const teamMembers = [
-  { name: 'Dr. Jane Smith', role: 'Founder & CEO', image: '/placeholder.svg?height=200&width=200', bio: 'Dr. Smith has over 20 years of experience in education and technology.' },
-  { name: 'John Doe', role: 'Head of Curriculum', image: '/placeholder.svg?height=200&width=200', bio: 'John specializes in developing adaptive learning content across various subjects.' },
-  { name: 'Emily Brown', role: 'Lead Instructor', image: '/placeholder.svg?height=200&width=200', bio: 'Emily is passionate about creating engaging and interactive learning experiences.' },
-  { name: 'Michael Lee', role: 'Chief Technology Officer', image: '/placeholder.svg?height=200&width=200', bio: 'Michael leads our tech team in developing cutting-edge learning platforms.' },
+  { name: 'Shakil Ahmad', role: 'Founder & CEO', image: '/shakil.png?height=100&width=100', bio: 'Shakil has over 20 years of experience in education and technology.' },
+  { name: 'Sitare', role: 'Head of Curriculum', image: '/sitare.jpg?height=100&width=100', bio: 'Sitare specializes in developing adaptive learning content across various subjects.' },
+  { name: 'Kumar Akash', role: 'Lead Instructor', image: '/akash.png?height=100&width=100', bio: 'Akash is passionate about creating engaging and interactive learning experiences.' },
+  { name: 'Anvesha Singh', role: 'Chief Technology Officer', image: '/anvesha.png?height=100&width=100', bio: 'Anvesha leads our tech team in developing cutting-edge learning platforms.' },
 ]
 
 export function OurTeam() {

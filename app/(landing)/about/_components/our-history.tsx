@@ -2,11 +2,11 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
 export function OurHistory() {
   const milestones = [
-    { year: 2010, event: "Learner's Lab founded by Dr. Jane Smith" },
-    { year: 2013, event: "Launched our first adaptive learning platform" },
-    { year: 2016, event: "Expanded services to include corporate training solutions" },
-    { year: 2019, event: "Introduced AI-powered personalized learning paths" },
-    { year: 2022, event: "Reached 1 million active learners worldwide" }
+    { year: "JUL-2024", event: "Learner's Lab founded by Shakil Ahmad" },
+    { year: "AUG-2024", event: "Launched our first adaptive learning platform" },
+    { year: "SEPT-2024", event: "Expanded services to include corporate training solutions" },
+    { year: "OCT-2019", event: "Introduced AI-powered personalized learning paths" },
+    { year: "NOV-2022", event: "Reached 1 million active learners worldwide" }
   ]
 
   return (

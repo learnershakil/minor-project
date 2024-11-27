@@ -5,6 +5,7 @@ import { FAQs } from '@/app/(landing)/contact/_components/faqs'
 import { TeamMembers } from '@/app/(landing)/contact/_components/team-members'
 import { Testimonials } from '@/app/(landing)/contact/_components/testimonials'
 import '@/app/(landing)/contact/style.css'
+import Logo from '@/app/dashboard/_components/logo'
 
 export const metadata: Metadata = {
   title: "Contact Us | Learner's Lab",
@@ -17,7 +18,9 @@ export default function ContactPage() {
       <header className="border-b border-gray-800">
         <div className="container mx-auto px-4 py-6">
           <nav className="flex justify-between items-center">
-            <a href="/" className="text-2xl font-bold">Learner&apos;s Lab</a>
+          <a href="/" className='h-auto'>
+              <Logo />
+            </a>
             <ul className="flex space-x-6">
               <li><a href="/" className="hover:text-blue-400 transition-colors">Home</a></li>
               <li><a href="/about" className="hover:text-blue-400 transition-colors">About</a></li>

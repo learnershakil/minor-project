@@ -4,7 +4,7 @@ export function OurMission() {
   return (
     <section className="py-12">
       <div className="container mx-auto px-4">
-        <Card className="bg-[#17171A] border-gray-800">
+        <Card className="bg-[#1D1D21] border-gray-800">
           <CardHeader>
             <CardTitle className="text-3xl font-bold text-center mb-4">Our Mission</CardTitle>
           </CardHeader>

@@ -1,0 +1,44 @@
+import { Mail, Phone, MapPin, Clock } from 'lucide-react'
+
+export default function ContactInfo() {
+  return (
+    <div className="space-y-6">
+      <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
+      <div className="flex items-start space-x-3">
+        <Mail className="w-6 h-6 mt-1 text-blue-400" />
+        <div>
+          <h3 className="font-semibold">Email</h3>
+          <a href="mailto:info@learnerslab.com" className="hover:text-blue-400 transition-colors">
+            info@learnerslab.com
+          </a>
+        </div>
+      </div>
+      <div className="flex items-start space-x-3">
+        <Phone className="w-6 h-6 mt-1 text-blue-400" />
+        <div>
+          <h3 className="font-semibold">Phone</h3>
+          <a href="tel:+919709358602" className="hover:text-blue-400 transition-colors">
+            +91 97093 58602
+          </a>
+        </div>
+      </div>
+      <div className="flex items-start space-x-3">
+        <MapPin className="w-6 h-6 mt-1 text-blue-400" />
+        <div>
+          <h3 className="font-semibold">Address</h3>
+          <p>123 Learning Street, Education City, ST 12345, USA</p>
+        </div>
+      </div>
+      <div className="flex items-start space-x-3">
+        <Clock className="w-6 h-6 mt-1 text-blue-400" />
+        <div>
+          <h3 className="font-semibold">Office Hours</h3>
+          <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+          <p>Saturday: 10:00 AM - 2:00 PM</p>
+          <p>Sunday: Closed</p>
+        </div>
+      </div>
+    </div>
+  )
+}
+

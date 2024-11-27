@@ -148,7 +148,7 @@ export default function Home() {
           <div className="flex gap-[1vw] items-center">
             <Link href="/dashboard">
               <h1 className="text-zinc-100 hover:text-zinc-300 text-[1vw] px-[0.5vw] py-[0.2vw] rounded-full border w-[5vw] text-center hover:border-zinc-300">
-                Tutors
+                Mentors
               </h1>
             </Link>
 
@@ -233,7 +233,7 @@ export default function Home() {
               className="md:w-[24vw] w-[140px] md:h-[30vw] h-[180px] rounded-[15px] absolute top-0 md:left-[108px] left-[40px] bg-slate-200"
               style={{
                 backgroundImage:
-                  "url(https://img.freepik.com/free-photo/cybersecurity-concept-collage-design_23-2151877153.jpg?t=st=1732623408~exp=1732627008~hmac=06d6794de4350aeb1122d187ffcfce79ca9f6f45f120bac68ee7b154c78cf312&w=996)",
+                  "url(https://images.stockcake.com/public/d/2/2/d221c32f-b1eb-4d5a-bb77-03c96b875396_medium/coworkers-using-computer-stockcake.jpg)",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
@@ -257,7 +257,7 @@ export default function Home() {
               className="md:w-[24vw] w-[140px] md:h-[30vw] h-[180px] rounded-[15px] absolute top-0 md:left-[273px] left-[108px] bg-slate-300"
               style={{
                 backgroundImage:
-                  "url(https://img.freepik.com/free-photo/hacker-excited-after-developing-exploit_482257-92900.jpg?t=st=1732623516~exp=1732627116~hmac=a6324a24ad2039e92c7727084a01d7403ee2e38f04a70803d7391c4f7c7f087e&w=1380)",
+                  "url(https://www.datasciencecentral.com/wp-content/uploads/2022/06/AdobeStock_336689972.jpg)",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
@@ -273,7 +273,7 @@ export default function Home() {
               with a smarter way to learn!
             </h4>
             <Link href="/dashboard">
-              <div className="flex justify-center items-center gap-[15.5px] md:px-[18px] px-[14px] py-[8px] bg-filledBg md:py-[10px] rounded-full border-primary border-[1px] w-fit text-[12px] md:text-[16px]">
+              <div className="flex justify-center items-center gap-[15.5px] md:px-[18px] px-[14px] py-[8px] bg-filledBg md:py-[10px] rounded-full border-primary border-[1px] w-fit text-[12px] md:text-[16px] border-white">
                 <h3 className="text-textColor">Join Now</h3>
               </div>
             </Link>

@@ -4,6 +4,7 @@ import { OurHistory } from '@/app/(landing)/about/_components/our-history'
 import { OurTeam } from '@/app/(landing)/about/_components/our-team'
 import { OurValues } from '@/app/(landing)/about/_components/our-values'
 import { Achievements } from '@/app/(landing)/about/_components/achievements'
+import Logo from '@/app/dashboard/_components/logo'
 
 export const metadata: Metadata = {
   title: "About Us | Learner's Lab",
@@ -16,7 +17,9 @@ export default function AboutPage() {
       <header className="border-b border-gray-800">
         <div className="container mx-auto px-4 py-6">
           <nav className="flex justify-between items-center">
-            <a href="/" className="text-2xl font-bold">Learner&apos;s Lab</a>
+            <a href="/" className='h-auto'>
+              <Logo />
+            </a>
             <ul className="flex space-x-6">
               <li><a href="/" className="hover:text-blue-400 transition-colors">Home</a></li>
               <li><a href="/about" className="text-blue-400">About</a></li>

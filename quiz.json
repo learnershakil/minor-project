@@ -1,0 +1,93 @@
+{
+  "cm3yta5bt0002o4t9dfpy7d79": {
+    "stop":2,
+    "question": "What is the output of the following JavaScript code? `console.log(typeof NaN);`",
+    "options": ["a. 'number'", "b. 'NaN'", "c. 'undefined'", "d. 'object'"],
+    "correct": "a",
+    "reason": "In JavaScript, `NaN` stands for 'Not-a-Number' but is of the type 'number'.",
+    "explaination": "The `typeof` operator in JavaScript returns 'number' for the special value NaN, even though it represents a non-numeric result of a numeric operation.",
+    "time": {
+      "username1": 10,
+      "username2": 15,
+      "username3": 9
+    }
+  },
+  "cm3yux0xp00017hfwtvb4jy6i": {
+    "stop": 1,
+    "question": "Which method in React is used to update the state of a component?",
+    "options": ["a. setState()", "b. updateState()", "c. changeState()", "d. modifyState()"],
+    "correct": "a",
+    "reason": "`setState()` is the standard React method for updating component state.",
+    "explaination": "In React, the `setState()` method is used to update the state of a component. It re-renders the component with the updated state.",
+    "time": {
+      "username1": 7,
+      "username2": 12,
+      "username3": 14
+    }
+  },
+  "cm3yvd3ku000a7hfw873ol4ax": {
+    "stop": 2,
+    "question": "Which module in Node.js is used to handle file system operations?",
+    "options": ["a. fs", "b. path", "c. os", "d. stream"],
+    "correct": "a",
+    "reason": "The `fs` module in Node.js provides functionality for file system operations like reading and writing files.",
+    "explaination": "The `fs` module is used in Node.js to handle file operations such as reading, writing, and manipulating files on the local file system.",
+    "time": {
+      "username1": 8,
+      "username2": 13,
+      "username3": 11
+    }
+  },
+  "cm3yvduqv000c7hfw32pfk4n7": {
+    "stop": 1,
+    "question": "In MongoDB, which command is used to insert a document into a collection?",
+    "options": ["a. insert()", "b. add()", "c. insertDocument()", "d. insertOne()"],
+    "correct": "d",
+    "reason": "`insertOne()` is the standard MongoDB method to insert a single document into a collection.",
+    "explaination": "In MongoDB, the `insertOne()` method is used to insert a single document into a collection, while `insertMany()` can insert multiple documents.",
+    "time": {
+      "username1": 10,
+      "username2": 8,
+      "username3": 15
+    }
+  },
+  "cm3yvelq2000e7hfw4ajdcf0l": {
+    "stop": 2,
+    "question": "Which of the following is not a recommended step in project management?",
+    "options": ["a. Define project scope", "b. Ignore stakeholders", "c. Plan resources", "d. Monitor progress"],
+    "correct": "b",
+    "reason": "Ignoring stakeholders is not recommended as they play a crucial role in project success.",
+    "explaination": "Effective project management involves clear communication and engagement with stakeholders to ensure project goals are met.",
+    "time": {
+      "username1": 12,
+      "username2": 10,
+      "username3": 9
+    }
+  },
+  "cm3yvff57000g7hfwsgdbcy8n": {
+    "stop": 1,
+    "question": "Which command is used to initialize a Git repository?",
+    "options": ["a. git start", "b. git init", "c. git create", "d. git begin"],
+    "correct": "b",
+    "reason": "The `git init` command initializes a new Git repository in the current directory.",
+    "explaination": "In Git, `git init` is used to create a new repository. This sets up the necessary files to track changes in the directory.",
+    "time": {
+      "username1": 5,
+      "username2": 8,
+      "username3": 6
+    }
+  },
+  "cm3yvg94w000i7hfwbizixztw": {
+    "stop": 3,
+    "question": "Which file is used to define custom configuration in a Next.js project?",
+    "options": ["a. next.config.js", "b. next.config.json", "c. next.config.ts", "d. config.next.js"],
+    "correct": "a",
+    "reason": "The `next.config.js` file is the default configuration file for Next.js projects.",
+    "explaination": "In Next.js, `next.config.js` is used to define custom configurations such as redirects, rewrites, and build settings.",
+    "time": {
+      "username1": 9,
+      "username2": 12,
+      "username3": 10
+    }
+  }
+}
